@@ -1,4 +1,42 @@
+body {
+    margin: 0;
+}
+
 header{
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+li:hover {
+    color:  rgb(30, 215, 96);
+    cursor: pointer;
+}
+
+#perfil-link:hover {
+    color: rgb(30,215,96);
+    cursor: pointer;
+}
+
+#image-profile {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
