@@ -1,42 +1,59 @@
 body {
-    margin: 0;
+  margin: 0;
+}
+.verdao {
+  color: rgb(30, 215, 96);
+}
+#webplayerbutton {
+  border-radius: 38px;
+  padding: 14px 32px;
+  font-size: 15px;
+  background-color: rgb(30 215 96);
+  color: rgb(41, 65, 171);
+  border: none;
+  font-family: Helvetica;
+  font-weight: 800;
+  letter-spacing: 3px;
 }
 
-header{
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+#webplayerbutton:hover {
+  padding: 19px 32px 9px 32px;
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .container-header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 ul {
-    display: flex;
+  display: flex;
 }
 
 li {
-    list-style: none;
-    margin: 0 10px;
+  list-style: none;
+  margin: 0 10px;
 }
 
 li:hover {
-    color:  rgb(30, 215, 96);
-    cursor: pointer;
+  color: rgb(30, 215, 96);
+  cursor: pointer;
 }
 
 #perfil-link:hover {
-    color: rgb(30,215,96);
-    cursor: pointer;
+  color: rgb(30, 215, 96);
+  cursor: pointer;
 }
 
 #image-profile {
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
