@@ -1,8 +1,10 @@
 body {
   margin: 0;
+  background-color: #2941ab;
 }
 .verdao {
   color: rgb(30, 215, 96);
+
 }
 #webplayerbutton {
   border-radius: 38px;
@@ -43,7 +45,7 @@ li {
 }
 
 li:hover {
-  color: rgb(30, 215, 96);
+  color: rgb(216, 72, 60);
   cursor: pointer;
 }
 
@@ -56,4 +58,27 @@ li:hover {
   height: 50px;
   border-radius: 50%;
   margin-right: 15px;
+}
+.position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16em;
+}
+.titulo-conteudo-page{
+  margin: 0px;
+  font-size: 49px;
+}
+.bola1{
+  background-color:#1ed760 ;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  /* margin-top: -54px; */
+  /* margin-left: 95%; */
+  position: fixed;
+  top: -55px;
+  right: -140px;
+  z-index: -1;
 }
