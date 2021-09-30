@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #2941ab;
+  overflow-x: hidden;
 }
 .verdao {
   color: rgb(30, 215, 96);
@@ -19,7 +20,15 @@ body {
 }
 
 #webplayerbutton:hover {
+  transition: 0.5s;
+  cursor: pointer;
   padding: 19px 32px 9px 32px;
+  transform: rotateZ(30deg) scale(1.2);
+
+}
+#webplayerbutton:active{
+  background-color: black;
+  transition: 0s;
 }
 header {
   background-color: black;
@@ -70,15 +79,24 @@ li:hover {
   margin: 0px;
   font-size: 49px;
 }
-.bola1{
+.bola{
   background-color:#1ed760 ;
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
-  /* margin-top: -54px; */
-  /* margin-left: 95%; */
-  position: fixed;
-  top: -55px;
-  right: -140px;
+  position: absolute;
+  top: -5rem;
+  right: -8rem;
   z-index: -1;
+}
+
+
+
+.bola-left-bottom{
+  top: 31rem;
+  right: 32rem;
+}
+.bola-right-bottom{
+  top: 31rem;
+  right: -8rem;
 }
